@@ -1,0 +1,47 @@
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.left_panel, .right_panel {
+    /*width: 600px;*/
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+}
+
+.right_panel {
+    margin-left: 60px;
+}
+
+.form_titles, .form_input {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px auto;
+    text-align: left;
+}
+
+input {
+    display: block;
+    margin-top: 6px;
+    width: 173px;
+    padding: 1px 0;
+    height: 15px;
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 9px 0;
+}
+
+.button {
+    margin: 0 auto;
+    height: 22px;
+    width: 100px;
+}
+
+.error {
+    color: red;
+    list-style: none;
+}
